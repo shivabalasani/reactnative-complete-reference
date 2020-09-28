@@ -1,11 +1,11 @@
 import React from 'react';
 import { Platform, Text } from 'react-native';
 import {
-  createBottomTabNavigator
-} from 'react-navigation-tabs';
-import { createDrawerNavigator } from 'react-navigation-drawer'; 
-import { createAppContainer } from 'react-navigation';
-import { createStackNavigator } from 'react-navigation-stack';
+  createBottomTabNavigator,
+  createAppContainer
+} from 'react-navigation';
+import {createStackNavigator} from 'react-navigation-stack';
+import {createDrawerNavigator} from 'react-navigation-drawer';
 import { Ionicons } from '@expo/vector-icons';
 import { createMaterialBottomTabNavigator } from 'react-navigation-material-bottom-tabs';
 
@@ -95,7 +95,7 @@ const tabScreenConfig = {
 const MealsFavTabNavigator =
   Platform.OS === 'android'
     ? createMaterialBottomTabNavigator(tabScreenConfig, {
-        activeColor: 'white',
+        activeTintColor: 'white',
         shifting: true,
         barStyle: {
           backgroundColor: Colors.primaryColor
