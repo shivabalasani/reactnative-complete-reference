@@ -10,3 +10,5 @@ import {createStackNavigator} from 'react-navigation-stack';
 import {createDrawerNavigator} from 'react-navigation-drawer';
 
 https://rn-complete-guide-4c6d3.firebaseio.com
+
+change DrawerItems to DrawerNavigatorItems in ShopNavigator.
