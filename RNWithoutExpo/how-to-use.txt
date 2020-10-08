@@ -1,0 +1,16 @@
+
+React Native Project without Expo
+----------------------------------
+npm install -g react-native-cli
+
+react-native init RNWithoutExpo 
+react-native run-ios
+react-native run-android
+
+React Native Project with Bare Minimum Expo
+-------------------------------------------
+npm i -g expo-cli
+npm i -g react-native-cli
+
+expo init RNWithExpoBare
+and select bare-minimum
